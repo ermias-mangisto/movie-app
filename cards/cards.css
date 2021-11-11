@@ -1,0 +1,227 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: black;
+}
+header{
+  top: 0%;
+  position: fixed;
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  z-index: 3;
+}
+nav{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color:black;
+  width: 100%;
+  height: 10vh;
+align-items: center;
+border-bottom: solid 1px;
+
+font-family: 'Zen Antique Soft', serif;
+}
+nav a{
+  text-decoration: none;
+  color: rgb(182, 177, 176);
+width:30%;
+}
+header{
+  margin-bottom: 0%;
+}
+main{
+  
+  background-image: url(/media/ironman.jpg);
+  width: 99.9%;
+  background-repeat: no-repeat;
+  background-position:top;
+  background-attachment: fixed;
+  min-height: 100vh;
+  margin: auto;
+ 
+}
+#icons{
+display: flex;
+height: 100px;
+justify-content: space-between;
+}
+#icons img{
+ width: 200px;
+}
+#navBar{
+  display: flex;
+justify-content: space-evenly;
+width: 60%;
+
+}
+#navBar li {
+list-style-type: none;
+}
+#navBar li:hover{
+font-weight: bolder;
+}
+#navBar a {
+  text-decoration: none;
+  color: rgb(180, 173, 172);
+  font-size: large;
+}
+#sort{
+  font-family: 'Zen Antique Soft', serif;
+  color: white;
+  margin-top: 170px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+    text-align: center;
+}
+#sort input,button{
+  width: 30%;
+  margin: auto;
+}
+#sortValue{
+  
+    width: 150px;
+    margin: auto;
+    height: 25px;
+}
+#sortBtn{
+  margin:auto ;
+    width: 40px;
+    height: 25px;
+}
+#cardHolder{
+  font-family: 'Zen Antique Soft', serif;
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+}
+.movieCards{
+    text-align: center;
+    color: white;
+    width: 32%;
+    height: 460px;
+    background:rgba(240, 241, 245, 0);
+    margin: 3px;
+   border-bottom: 1px solid black;
+    border-radius: 5%;
+}
+.movieCards img{
+    width: 90%;
+    height: 80%;
+     border-radius:5%;
+}
+.btns{
+  background-color:rgba(0, 0, 0, 0.5);
+   display: flex;
+   width: 90%;
+   margin: auto;
+   border-radius: 10%;
+   justify-content: space-between;
+}
+.btns p{
+  width: 30%;
+}
+.btns p:hover{
+    font-weight: bolder;
+cursor: pointer;
+}
+#boxBackground {
+    display:none;
+    position: fixed; 
+    z-index: 11; 
+    padding-top: 50px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4);
+    
+  }
+  
+  
+  #box {
+    font-family: 'Zen Antique Soft', serif;
+    background-image: url(/media/prple.jpg);
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 90%;
+    height: 600px;
+  }
+  #inBox{
+      width: 100%;
+      height: 600px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+  }
+
+  #inBox form{
+   text-align: center;
+   font-size: larger;
+   color: ivory;
+  }
+  #inBox input{
+margin: 7px;
+height: 20px;
+  }
+  #inBox button{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bolder;
+    width: 70px;
+  }
+  #inBox div{
+width:45%;
+overflow-wrap: break-word;
+font-size: 22px;
+color: white;
+  }
+  #inBox span{
+    color: black;
+    font-weight: bold;
+  }
+
+  #exit {
+    color: #aaaaaa;
+    float: right;
+    font-size: 34px;
+    font-weight: bold;
+
+  }
+  #exit:hover{
+   color: black;
+   cursor: pointer;
+  }
+  
+footer{
+background-color: black;
+  height: 10vh;
+  width: 100%;
+  }
+  #links{
+      width:100%;
+      height: 40px;
+      text-align: center;
+      color: rgb(122, 213, 219);;
+      font-size: 40px;
+  }
+  @media  screen and (max-width:768px){
+    .movieCards{
+      width: 45%;
+    }
+    
+  }
+  @media  screen and (max-width:500px){
+    .movieCards{
+      width: 100%;
+    }
+    
+  }
