@@ -34,7 +34,7 @@ header{
 }
 main{
   
-  background-image: url(/media/ironman.jpg);
+  background-image: url(media/ironman.jpg);
   width: 99.9%;
   background-repeat: no-repeat;
   background-position:top;
@@ -147,7 +147,7 @@ cursor: pointer;
   
   #box {
     font-family: 'Zen Antique Soft', serif;
-    background-image: url(/media/prple.jpg);
+    background-image: url(media/prple.jpg);
     margin: auto;
     padding: 20px;
     border: 1px solid #888;

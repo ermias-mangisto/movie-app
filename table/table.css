@@ -57,7 +57,7 @@ font-weight: bolder;
     font-size: large;
 }
 main{
-    background-image: url(/media/ironman.jpg);
+    background-image: url(media/ironman.jpg);
     background-repeat: no-repeat;
     background-position:top;
     background-attachment: fixed;
