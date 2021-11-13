@@ -60,7 +60,7 @@ font-weight: bolder;
 }
 main{
   
-    background-image: url(media/ironman.jpg);
+    background-image: url(../media/ironman.jpg);
     width: 99.9%;
     background-repeat: no-repeat;
     background-position:top;

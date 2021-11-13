@@ -57,7 +57,7 @@ font-weight: bolder;
     font-size: large;
 }
 main{
-    background-image: url(media/ironman.jpg);
+    background-image: url(../media/ironman.jpg);
     background-repeat: no-repeat;
     background-position:top;
     background-attachment: fixed;
@@ -80,7 +80,7 @@ main{
   border:1px solid black;
 }
 #movieTable td{
- max-width: 400px;
+ max-width: 300px;
   border:1px solid black;
   overflow-wrap: break-word;
 
